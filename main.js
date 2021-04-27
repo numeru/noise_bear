@@ -54,5 +54,5 @@ canvas.addEventListener("click", () => {
   isClicked = true;
   setTimeout(() => {
     isClicked = false;
-  }, 1000);
+  }, 1500);
 });

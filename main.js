@@ -1,4 +1,5 @@
 const canvas = document.querySelector(".video");
+const body = document.querySelector("body");
 const context = canvas.getContext("2d");
 const basicVideoImages = [];
 const effectVideoImages = [];
@@ -42,6 +43,6 @@ function init() {
 window.addEventListener("load", init);
 setImages();
 
-canvas.addEventListener("click", () => {
+body.addEventListener("click", () => {
   loop();
 });
